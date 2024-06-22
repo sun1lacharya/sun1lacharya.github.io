@@ -9,7 +9,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 authors:
-  - admin
+  - sun1lach
 
 tags:
   - Academic
