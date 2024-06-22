@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section > div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hbb-section{
+    padding-top:0;
+    padding-bottom:6rem
+}
+
+footer.container {
+    margin-top: 1rem;
+}
+
+#top > div.page-body.my-10 > div.flex.flex-col.items-center > div{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#top > div.page-footer > footer > p:nth-child(3) {
+    display: none;
+}
