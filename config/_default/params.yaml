@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Sunil Acharya (sun1lach) Professional space.'
+    description: 'Sunil Acharya (sun1lach) Professional space. Deep learning @ Habana.ai (Intel)'
     twitter: 'sun1lach'
   analytics:
     google_analytics: 'G-KPDZBE33TY'
@@ -23,7 +23,7 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: '67VOv-IG5013zad15FNXCyaM-MfspXXIT2dl-BRk9AQ'
     baidu: ''
 
 # Site header
@@ -56,6 +56,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
