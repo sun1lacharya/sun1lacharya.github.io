@@ -25,7 +25,7 @@ role: Sr. AI Software Solutions Engineer
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Habana.ai (Intel Corporation)
-    url: https://habana.ai/
+    url: https://intel.ai/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -56,15 +56,19 @@ education:
     button:
       text: 'Read Thesis'
       url: 'http://dx.doi.org/10.13140/RG.2.2.10877.74723'
-  - area: Post Graduate Diploma in Machine Learning & AI
-    institution: International Institute of Information Technology, Bangalore
+  - area: 7th Summer School, Machine learning
+    institution: IIIT Hyderabad
+    date_start: 2023-07-01
+    date_end: 2026-08-01
+  - area: PGD in Machine Learning & AI
+    institution: IIIT Bangalore
     date_start: 2020-01-01
     date_end: 2020-12-31
     summary: |
       **Coursework**  
         Probability & Statistics  
         Exploratory Data Analysis  
-        Supervised & Unsupervised Machine Learning  
+        Supervised & Unsupervised Machine Learning
         Natural Language Processing  
         Deep Learning for Computer Vision  
         Reinforcement Learning  
@@ -73,7 +77,7 @@ education:
       **Capstone**
         CycleGAN - Style Transfer using Generative Adversarial Network (GAN) - Built a Generative adversarial model (modified U-Net Architecture) that generates artificial T1 to T2 and vice-versa MRI images of different contrast levels from existing MRI scans.
 
-  - area: Bachelor of Engineering in Electronics & Communication
+  - area: B.E. in Electronics & Communication
     institution: Visvesvaraya Technological University
     date_start: 2012-09-03
     date_end: 2016-04-01
@@ -219,6 +223,12 @@ projects:
       - Built a Generative adversarial model(modiﬁed U-Net Architecture) which can generate artiﬁcial T1 to T2 and vice-versa MRI images of diﬀerent contrast levels from existing MRI scans.
 
 awards:
+  - title: Certification on Accelerators for Deep Learning
+    date: '2024-11-09'
+    awarder: IIT Roorkee
+    icon: iitr
+    summary: |
+      Executive certificate on Accelerators for Deep Learning covering deep learning algorithms and computer architecture with an emphasis on AI acceleration on various computing systems, such as FPGAs, mobile/desktop GPUs, smartphones, ASICs, DSPs and CPUs.
   - title: Rockstar of the Year
     date: '2023-12-15'
     awarder: Intel Corporation
@@ -226,8 +236,6 @@ awards:
     summary: |
       Recognized as ‘Rockstar of the Year’ for consistently delivering on commitments and exceeding performance goals within the short span.
 ---
-
-## About Me
 
 I craft precision models, blending efficiency with optimized FLOPS.
 

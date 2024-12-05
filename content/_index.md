@@ -9,7 +9,7 @@ design:
   spacing: "1rem"
 
 sections:
-  - block: resume-biography-3
+  - block: resume-bio-custom
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: sun1lach
@@ -23,15 +23,15 @@ sections:
       spacing:
         padding: ['0', '0', '2rem', '0']
       background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: true
+        color: white
+        # image:
+        #   # Add your image background to `assets/media/`.
+        #   filename: stacked-peaks.svg
+        #   filters:
+        #     brightness: 1.0
+        #   size: cover
+        #   position: center
+        #   parallax: true
   # - block: markdown
   #   content:
   #     title: '📚 My Research'

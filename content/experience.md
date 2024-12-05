@@ -18,6 +18,10 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: resume-awards
+    content:
+      title: Awards/Certs
+      username: sun1lach
   - block: resume-projects
     content:
       title: Projects
@@ -28,10 +32,7 @@ sections:
   #     username: sun1lach
     design:
       show_skill_percentage: false
-  - block: resume-awards
-    content:
-      title: Awards
-      username: sun1lach
+  
   # - block: resume-languages
   #   content:
   #     title: Languages
