@@ -229,6 +229,7 @@ awards:
     icon: iitr
     summary: |
       Executive certificate on Accelerators for Deep Learning covering deep learning algorithms and computer architecture with an emphasis on AI acceleration on various computing systems, such as FPGAs, mobile/desktop GPUs, smartphones, ASICs, DSPs and CPUs.
+    url: https://iitr.ac.in/cec/CEC-1010-2021-22/cert-CEC-1010-2021-22-16.jpg
   - title: Rockstar of the Year
     date: '2023-12-15'
     awarder: Intel Corporation
