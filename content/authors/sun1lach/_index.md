@@ -97,13 +97,13 @@ work:
     date_start: 2019-04-01
     date_end: ''
     summary: |2-
-      - I do model enablement & scale out LLM training on Gaudi 2 & 3 Accelerators with various distributed parallel stragtegies.
-      - Implemented and upstreamed habana devices compatible distributed checkpoint conversion to hugging face format vice-versa for external customers.
-      - Presented demos at Intel Innovation events; led a technical talk on AWS cost-optimized data pipelines.
-      - Spearheaded the implementation of Intel Automated Vision Checkout as a service with an emphasis on efficient training and inference on iGPU at the edge achieving low inference latency, scalability & applicability in a retail use case. Solution is currently deployed and live at multiple retailers in India, clocking more than 1000+ transactions a day.
-      - Developed an LLM fine-tuning-as-a-service feature using ZenML/cnvrg.io as a premium internal offering.
-      - Contributed to Open Source Linux Foundation's Secure Federated AI OpenFL, extending federated learning with JAX/FLAX support and implemented federation timeout, enhancing secure, efficient model training.
-      - Reduced AWS Glue job costs by 8x through Apache Spark & Scala optimization, supporting 40M monthly API hits with a production-grade, event-driven pipeline for Intel's product catalog downstream applications.
+      - **LLM Enablement & Distributed Training**: Enabled and scaled LLM training on Intel Gaudi 2 & 3 accelerators using DeepSpeed, Megatron-LM, with various distributed parallel strategies; productionized distributed checkpoint conversions for Hugging Face compatibility to external customers.
+      - **Optimized Edge AI**: Designed and deployed Intel Automated Vision Checkout at retail sites in India, achieving low-latency (~70ms) deep learning inference and scalability on Intel's integrated GPU, supporting 100+ daily transactions at the store front.
+      - **Federated AI**: Contributed to Linux Foundation’s `securefederatedai/openfl` by introducing JAX/FLAX support, federation long and short lived component timeout feature, and interactive examples for secure, efficient federated learning on private medical records.
+      - **Data Pipelines**: Built an event-driven, cost-optimized AWS data pipeline, reducing costs by 8x and publishing product data in 5 minutes (down from 6 hours), supporting ~40M API hits monthly.
+      - **LLM Fine-Tuning as a Service**: Designed a ZenML/cnvrg.io-based fine-tuning framework for internal use as a premium offering.
+      - **Performance Profiling**: Experience in accelerators compute/memory profiling, device & host trace analysis to optimize distributed training workloads and application level optimization for edge inference.
+      - **Public Speaking**: Presented demos and delivered technical talks on cloud cost optimization and product innovations at Intel India Innovation day, Intel ConnectiON  and Intel India tech talk series (Cloud Community of Practice) events.  
   - position: Software Engineer
     company_name: Western Digital (SanDisk)
     company_url: ''
@@ -239,7 +239,9 @@ awards:
 
 I craft precision models, blending efficiency with optimized FLOPS.
 
-I am a seasoned engineer at Intel Corporation with 6 years of invaluable experience. During my early tenure at Intel, I successfully crafted an end-to-end scalable production data pipeline on AWS. My primary focus was on ensuring data integrity, consistency, and transformation, resulting in a system catering to 10+ downstream internal and external customers, receiving over 30 million hits monthly.
+I am a seasoned engineer with ~8 years of experience in building solutions. I specialize in large-scale model (8B to 405B) enablement and optimization on Habana Gaudi 2 & 3 accelerators.  Expertise in distributed training parallelism strategies, device and host compute/memory profiling.
+Contributed to Linux Foundation’s `securefederatedai/openfl`, extending federated learning with JAX/FLAX and added more features.
 
-🌐 Open Source Contributions:
-As an open-source enthusiast, I contribute to the Linux Foundation project, Secure Federated AI OpenFL. Notably, I implemented an efficient federation component timeout feature, enhancing the project's functionality. Additionally, I introduced JAX (FLAX) Cifar10 and linear regression-based federated learning examples, showcasing my commitment to advancing federated learning frameworks.
+Additionally, I’ve developed an E2E deep learning based Intel's Automated Vision Checkout edge AI solutions, optimized model inference on iGPU devices and deployed at various retailer site in India. Spearheaded cost-effective event driven data pipelines on AWS, delivering a significant operational cost reduction and faster time to data publication supporting ~40m API hits monthly.
+
+

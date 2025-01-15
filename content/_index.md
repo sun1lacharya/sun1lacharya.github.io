@@ -19,9 +19,8 @@ sections:
         text: Download Resume
         url: uploads/sun1lach.pdf
     design:
-      css_class: dark
       spacing:
-        padding: ['0', '0', '2rem', '0']
+        padding: ['0', '0', '0', '0']
       background:
         color: white
         # image:
