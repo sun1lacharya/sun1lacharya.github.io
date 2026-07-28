@@ -1,8 +1,14 @@
-@inproceedings{example1,
-  title={An example conference paper},
-  author={Bighetti, Nelson and Ford, Robert},
-  booktitle={Source Themes Conference},
-  pages={1--6},
-  year={2013},
-  organization={IEEE}
+@article{ACHARYA20262288,
+title = {Solving the Capacity Mismatch Problem: Self-Knowledge Distillation for Ultra-Lightweight Networks},
+journal = {Procedia Computer Science},
+volume = {283},
+pages = {2288-2301},
+year = {2026},
+note = {International Conference on Machine Learning and Data Engineering},
+issn = {1877-0509},
+doi = {https://doi.org/10.1016/j.procs.2026.06.301},
+url = {https://www.sciencedirect.com/science/article/pii/S1877050926019332},
+author = {Sunil Acharya and Bharath Kumar Bolla and Joel Jojo},
+keywords = {Knowledge Distillation, Self-Distillation, Model Compression, Lightweight Neural Networks, Edge AI, TinyML, Ultra Lightweight Networks, Resource Constrained Learning, CIFAR-10, FMNIST, CSKD},
+abstract = {Deep neural networks achieve state-of-the-art performance across vision tasks, yet their deployment on edge devices remains challenging due to high computational and memory requirements. Knowledge Distillation (KD) shows promise for model compression, yet its effectiveness in the ultra-lightweight regime (models with fewer than one million parameters) remains underexplored. This paper systematically evaluates multiple KD paradigms, including traditional teacher-student approaches, online methods, and self-distillation techniques, on compact convolutional architectures designed for resource-constrained environments. We find that conventional teacher-student KD consistently degrades performance in ultra-lightweight models due to a capacity mismatch between large teachers and small students. We introduce the capacity mismatch hypothesis, which posits that optimization conflicts arise when students cannot accurately approximate teacher distributions. In contrast, self distillation methods, specifically Classwise Self Knowledge Distillation (CSKD) and Teacher Free Self Training (TFST), consistently deliver superior results by eliminating capacity mismatch. Results on CIFAR-10 and Fashion-MNIST demonstrate remarkable efficiency gains: our 600K-parameter model with TFST achieves 94.14% accuracy on Fashion-MNIST, approaching the 96.70% benchmark achieved by an 8.9M-parameter baseline. This represents a 15-fold parameter reduction while maintaining competitive performance. On CIFAR-10, the same model reaches 91.98% accuracy, rivalling much larger architectures. These findings validate that self-distillation consistently outperforms traditional KD across model sizes and datasets, with improvements ranging from 3% to 4% over baseline. Our research provides theoretical insights into KD behavior under resource constraints and practical guidelines for efficient design, demonstrating that combining architectural efficiency with self-distillation enables high-performance AI deployment on edge devices.}
 }

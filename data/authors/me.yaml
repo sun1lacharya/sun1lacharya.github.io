@@ -2,115 +2,231 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Sunil Acharya
+  given: Sunil
+  family: Acharya (sun1lach)
+  alternate: ''
+  pronunciation: ''
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+highlight_name: true
+role: Sr. Machine Learning Engineer
 
+# Organizations/Affiliations to display in Biography blox
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Habana.ai (Intel Corporation)
+    url: https://intel.ai/
 
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: 'mailto:sun1lach@outlook.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://x.com/example
+    url: https://x.com/sun1lach
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/sun1lach
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/sun1lach
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/sun1lach
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
-interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+    url: https://scholar.google.com/citations?user=qGc3CiEAAAAJ&hl=en&oi=ao
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - area: MSc. Artificial Intelligence
+    institution: Liverpool John Moores University
+    date_start: 2021-01-01
+    date_end: 2022-12-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Thesis on "Effectiveness of Knowledge Distillation on various neural network architectures".
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      text: 'Read Thesis'
+      url: 'http://dx.doi.org/10.13140/RG.2.2.10877.74723'
+  - area: 7th Summer School, Machine learning
+    institution: IIIT Hyderabad
+    date_start: 2023-07-01
+    date_end: 2026-08-01
+  - area: PGD in Machine Learning
+    institution: IIIT Bangalore
+    date_start: 2020-01-01
+    date_end: 2020-12-31
+    summary: |
+      **Coursework**  
+        Probability & Statistics  
+        Exploratory Data Analysis  
+        Supervised & Unsupervised Machine Learning
+        Natural Language Processing  
+        Deep Learning for Computer Vision  
+        Reinforcement Learning  
+        MLOps  
+      
+      **Capstone**
+        CycleGAN - Style Transfer using Generative Adversarial Network (GAN) - Built a Generative adversarial model (modified U-Net Architecture) that generates artificial T1 to T2 and vice-versa MRI images of different contrast levels from existing MRI scans.
+
+  - area: B.E. in Electronics & Communication
+    institution: Visvesvaraya Technological University
+    date_start: 2012-09-03
+    date_end: 2016-04-01
+
+interests:
+  - Artificial Intelligence
+  - Computer Vision
+  - Deep Learning
+  - Statistics
+  - High Performance Computing
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - position: Sr. AI Engineer
+    company_name: Intel Corporation
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-04-01
+    date_end: ''
+    summary: |2-
+      - **LLM Enablement & Distributed Training**: Enabled and scaled LLM training on Intel Gaudi 2 & 3 accelerators using DeepSpeed, Megatron-LM, with various distributed parallel strategies; productionized distributed checkpoint conversions for Hugging Face compatibility to external customers.
+      - **Optimized Edge AI**: Designed and deployed Intel Automated Vision Checkout at retail sites in India, achieving low-latency (~70ms) deep learning inference and scalability on Intel's integrated GPU, supporting 100+ daily transactions at the store front.
+      - **Federated AI**: Contributed to Linux Foundation’s `securefederatedai/openfl` by introducing JAX/FLAX support, federation long and short lived component timeout feature, and interactive examples for secure, efficient federated learning on private medical records.
+      - **Data Pipelines**: Built an event-driven, cost-optimized AWS data pipeline, reducing costs by 8x and publishing product data in 5 minutes (down from 6 hours), supporting ~40M API hits monthly.
+      - **LLM Fine-Tuning as a Service**: Designed a ZenML/cnvrg.io-based fine-tuning framework for internal use as a premium offering.
+      - **Performance Profiling**: Experience in accelerators compute/memory profiling, device & host trace analysis to optimize distributed training workloads and application level optimization for edge inference.
+      - **Outreach**: Presented demos and delivered technical talks on cloud cost optimization and product innovations at Intel India Innovation day, Intel ConnectiON  and Intel India tech talk series (Cloud Community of Practice) events.  
+  - position: Software Engineer
+    company_name: Western Digital (SanDisk)
+    company_url: ''
+    company_logo: ''
+    date_start: 2017-03-01
+    date_end: 2019-03-20
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - As a part of Competitive Analysis team, Successfully developed a Performance Studio client server distributed application from idea to inception for internal teams to benchmark, test, validate & qualify uSD, SD cards & enterprise SSDs.
+      - Experience in conﬁguring and chaining 48/24 ports Brocade Network switches & tune power class ports to support 80+ PoE cameras for automated uSD/SD card testing.
+  - position: Software Engineer Trainee
+    company_name: sketchmyroom (Rhythm of space)
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-09-03
+    date_end: 2017-02-25
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Interiors and architecture design-related experience with Full Stack Web Application Development. Primarily responsible for the development of a backend application that exposes in-house portfolios to clients via APIs, giving clients access to a variety of architecture designs offerings and an online customization option.
+  - position: Engineering Trainee/Intern
+    company_name: Bharat Sanchar Nigam Limited (BSNL)
+    company_url: ''
+    company_logo: ''
+    date_start: 2015-01-05
+    date_end: 2015-09-25
+    summary: |
+      - Acquired practical exprerience with Operational testing of wireless equipments, configured router, modems and mainline distribution frames. Hands on approach to  optical fiber fusion splicing, monitoring various signal parameters using OTDR devices and its functioning at various stages.
+      - Foundational learnings on Digital Switching & Transmission Systems, Telecom support infrastructure, Optical Fiber technology, Networking & mobile communications etc.
 
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: languages
     items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - name: Python
+        description: ''
+        icon: code-bracket
+      - name: C++
+        description: ''
+        icon: code-bracket
+      - name: Java
+        description: ''
+        icon: code-bracket
+  - name: library/frameworks
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
-      - label: Academic Writing
+      - name: PyTorch
+        description: ''
+        level: 3
+        icon: code-bracket
+      - name: JAX
+        description: ''
         level: 5
-      - label: Conference Presentations
+        icon: code-bracket
+      - name: Transformers
+        description: ''
         level: 4
-      - label: Grant Proposals
+        icon: code-bracket
+      - name: Megatron-LM
+        description: ''
         level: 4
+        icon: code-bracket
+  - name: Practices
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Clean Architecture
+        description: ''
+        level: 3
+        icon: code-bracket
+      - name: Domain driven design
+        description: ''
+        level: 5
+        icon: code-bracket
+      - name: Software Architecture
+        description: ''
+        level: 4
+        icon: code-bracket
 
 languages:
   - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+    percent: 100
+  - name: Hindi
+    percent: 90
+  - name: Kannada
+    percent: 75
+
+# Projects - rendered by the custom `resume-projects` blox
+projects:
+  - title: Custom & eﬃcient CNN architectures from scratch
+    url: https://github.com/sun1lach/kd-custom-architectures
+    date: '2023-12-15'
+    icon: project
+    summary: |2-
+      - Designed and Implemented 25k, 143k, 340k, 600k & 1M parameter eﬃcient custom CNN architectures.
+      - Upon knowledge distillation on these custom CNN architectures, model accuracy surpasses ResNet-18/34/152 baselines with 10-20x less model parameters on FMNIST & CIFAR-10.
+  - title: Intel AI Everywhere Conference
+    date: '2023-12-15'
+    icon: project
+    summary: |2-
+      - Feature-engineered using VIF, RFE, and PCA. Built a hyperparameter-tuned logistic regression, random forest, and XGBoost model to predict the outcome (pass or fail) of new turn-ins using historical records of turn-ins.
+      - Selective ﬁltering was done based on the classiﬁcation outcome of the turn-ins to save execution time in the DevOps pipeline in the context of HW design validation.
+  - title: GradCam Visualization of CIFAR-10 dataset with Albumentations.
+    url: https://github.com/sun1lach/cifar10_grad_cam
+    date: '2023-12-15'
+    icon: project
+    summary: |2-
+      - Focuses on building and training a ResNet-18 model on the CIFAR-10 dataset.
+      - Implemented data augmentation using the Albumentations library, a custom dataset loader, plotting train and test loss curves, GradCam visualization of randomly sampled misclassiﬁed images, and visualization of misclassiﬁed images with labels and appropriate legends.
+  - title: Style Transfer using Generative Adversarial Network (GAN)
+    date: '2023-12-15'
+    icon: project
+    summary: |
+      - Built a Generative adversarial model(modiﬁed U-Net Architecture) which can generate artiﬁcial T1 to T2 and vice-versa MRI images of diﬀerent contrast levels from existing MRI scans.
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Certification on Accelerators for Deep Learning
+    date: '2024-11-09'
+    awarder: IIT Roorkee
+    icon: brands/iitr
+    summary: |
+      Executive certificate on Accelerators for Deep Learning covering deep learning algorithms and computer architecture with an emphasis on AI acceleration on various computing systems, such as FPGAs, mobile/desktop GPUs, smartphones, ASICs, DSPs and CPUs.
+    url: https://iitr.ac.in/cec/CEC-1010-2021-22/cert-CEC-1010-2021-22-16.jpg
+  - title: Rockstar of the Year
+    date: '2023-12-15'
+    awarder: Intel Corporation
+    icon: brands/intel
+    summary: |
+      Recognized as ‘Rockstar of the Year’ for consistently delivering on commitments and exceeding performance goals within the short span.
+
+bio: |
+  I craft precision models, blending efficiency with optimized FLOPS.
+
+  I am a seasoned engineer with ~8 years of experience in building solutions. I specialize in large-scale model (8B to 405B) enablement and optimization on Habana Gaudi 2 & 3 accelerators. Expertise in distributed training parallelism strategies, device and host compute/memory profiling.
+  Contributed to Linux Foundation’s `securefederatedai/openfl`, extending federated learning with JAX/FLAX and added more features.
+
+  Additionally, I’ve developed an E2E deep learning based Intel's Automated Vision Checkout edge AI solutions, optimized model inference on iGPU devices and deployed at various retailer site in India. Spearheaded cost-effective event driven data pipelines on AWS, delivering a significant operational cost reduction and faster time to data publication supporting ~40m API hits monthly.

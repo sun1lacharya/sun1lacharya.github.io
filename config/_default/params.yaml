@@ -13,20 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Sunil Acharya"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Machine Learning Engineer | Deep Learning Systems | AI Performance Optimization | AI Researcher"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Sunil Acharya (sun1lach) | Deep learning Engineer @ Habana.ai (Intel)"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
-
+      twitter: "sun1lach" # Twitter/X handle for Twitter Cards (without @)
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
   # Color and visual design system
@@ -146,7 +144,7 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
+      note: "Sunil Acharya (sun1lach) | Deep learning Engineer @ Habana.ai (Intel)"
       contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -156,7 +154,7 @@ hugoblox:
   content:
     # Math rendering
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
@@ -199,7 +197,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: "G-KPDZBE33TY" # Google Analytics 4: G-XXXXXXXXXX
     google_tag_manager:
       container_id: "" # GTM-XXXXXXX
     plausible:
@@ -218,7 +216,7 @@ hugoblox:
   # Search engine site verification codes
   # ────────────────────────────────────────────────────────────────────────────
   verification:
-    google: ""
+    google: "67VOv-IG5013zad15FNXCyaM-MfspXXIT2dl-BRk9AQ"
     bing: ""
     baidu: ""
     yandex: ""
@@ -260,7 +258,7 @@ hugoblox:
   # Privacy and compliance features
   # ────────────────────────────────────────────────────────────────────────────
   privacy:
-    enable: false
+    enable: true
     anonymize_analytics: true
 
   # ────────────────────────────────────────────────────────────────────────────
